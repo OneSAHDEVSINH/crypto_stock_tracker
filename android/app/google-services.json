@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "311969425961",
+    "project_id": "cryptostocktracker",
+    "storage_bucket": "cryptostocktracker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:311969425961:android:b3f23747cba8627c330a38",
+        "android_client_info": {
+          "package_name": "com.example.crypto_stock_tracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoZyU4IrxUlgQlDbRO7v6xgc-6JsRcJpk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
