@@ -8,12 +8,12 @@ import 'package:flutter/foundation.dart';  // For platform detection
 
 // Add the Firebase configuration for web
 const firebaseConfigWeb = FirebaseOptions(
-    apiKey: "AIzaSyBWFR56NU59KM2lvNc00pMF5a8kbXKfIDE",
+    apiKey: "YOUR_API",
     authDomain: "cryptostocktracker.firebaseapp.com",
     projectId: "cryptostocktracker",
     storageBucket: "cryptostocktracker.appspot.com",
-    messagingSenderId: "311969425961",
-    appId: "1:311969425961:web:860a2c2f746a5e28330a38"
+    messagingSenderId: "YOUR_ID",
+    appId: "YOUR_WEB_ID"
 );
 
 void main() async {
