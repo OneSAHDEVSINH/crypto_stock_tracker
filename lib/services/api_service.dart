@@ -5,7 +5,8 @@ import '../models/stock_model.dart';
 
 class ApiService {
   final String cryptoUrl = 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd';
-  final String stockApiKey = '5OEF2Y8CPQ7SHLDA';
+  final String stockApiKey = 'YOUR_API';
+  final String financeApiKey = 'YOUR_API';
 
   // Fetch cryptocurrency data
   Future<List<Crypto>> fetchCryptos() async {
@@ -70,7 +71,7 @@ class ApiService {
 
   // Fetch financial news
   Future<List<dynamic>> fetchNews() async {
-    final newsUrl = 'https://newsapi.org/v2/everything?q=finance&apiKey=287ea689501e459faee668654537023b';
+    final newsUrl = 'https://newsapi.org/v2/everything?q=finance&apiKey=$financeApiKey';
     final response = await http.get(Uri.parse(newsUrl));
 
     if (response.statusCode == 200) {
