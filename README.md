@@ -1,36 +1,3 @@
-# crypto_stock_tracker
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-```
-
-Additionally, there is another `README.md` file located at `ios/Runner/Assets.xcassets/LaunchImage.imageset/` with the following content:
-
-```markdown
-# Launch Screen Assets
-
-You can customize the launch screen with your own desired assets by replacing the image files in this directory.
-
-You can also do it by opening your Flutter project's Xcode project with `open ios/Runner.xcworkspace`, selecting `Runner/Assets.xcassets` in the Project Navigator and dropping in the desired images.
-```
-
-### Comprehensive README.md
-
-To create a comprehensive `README.md`, you can include sections like project description, features, installation, usage, and contribution guidelines. Here is an enhanced version:
-
-```markdown
 # Crypto Stock Tracker
 
 Crypto Stock Tracker is a Flutter application designed to track cryptocurrency and stock prices in real-time.
